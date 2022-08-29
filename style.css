@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.conatiner{
+  height:100vh;
+  width: 100%;
+  background-color: rgba(191, 129, 35, 0.793);
+  
+}
+.menu{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(191, 203, 133);
+ 
+}
+.menu ul li {
+ 
+   display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   padding: 15px;
+   right: -500px;
+   list-style-type: none;
+   
+}
+
+.menu ul li a{
+  padding: 5px;
+ text-decoration: none;
+ color: rgba(20, 109, 233, 0.802);
+ text-transform: uppercase;
+ transition: 1s;
+  
+}
+.menu ul li a:hover{
+ 
+  background-color: rgb(250, 228, 62);
+  border-radius: 50px;
+  transform: 1.1;
+}
+.text{
+  top: -4px;
+  left: 10px;
+  font-size: 1rem;
+  color: rgb(11, 175, 234);
+  background-color: rgb(201, 239, 106);
+  border-radius: 80px;
+  padding: 3px;
+  position: absolute;
+}
+.text2{
+  top: 9px;
+  left: 43px;
+  font-size: o.8rem;
+  position: absolute;
+  color: azure;
+  background-color: rgb(193, 19, 103);
+  border-radius: 60px;
+  padding: 3px;
+  margin: 3px;
+}
+.text3{
+  top: 25px;
+  left: 70px;
+  font-size: 0.7rem;
+  color:rgb(212, 226, 15);
+  background-color: rgb(45, 146, 20);
+  border-radius: 60px;
+  padding: 3px;
+  margin: 2px;
+  position: absolute;
+}
+h1{
+  text-align: center;
+}
+main{
+ 
+  height:50%;
+  width:100%;
+  position: relative;
+}
+
+.book{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  
+}

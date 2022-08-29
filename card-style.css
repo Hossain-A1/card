@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#5d4a52;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: hwb(200 98% 1%);
+  margin: 100px auto;
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px rgb(0, 0, 0,0.1);
+}
+.neo-box{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 100px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #626667, -5px -5px 10px #f9fcfc;
+}
+.neo-box-2{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 100px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #7a2044,-5px -5px 10px #fb3484;
+}
+
+/* for card */
+.card-container{
+margin: 100px auto;
+max-width: 300px;
+height: 550px;
+padding: 20px;
+box-shadow: 5px 5px 10px #9d7283, -5px -5px 10px  #fab5d0;
+}
+.card-imge{
+width: 200px;
+height: 200px;
+background-color: rgb(70, 71, 68);
+overflow: hidden;
+margin: 20px auto 0;
+outline-offset: 4px;
+outline:2px solid tan ;
+border-radius: 50%;
+}
+.card-imge img{
+  cursor: pointer;
+ 
+}
+.card-imge img:hover{
+  filter: grayscale(1);
+}
+.card-dese{
+  text-align: center;
+  margin-top: 20px;
+}
+.card-dese h2{
+font-size: 3rem;
+letter-spacing: 2px;
+}
+.card-dese p{
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-align: justify;
+  margin: 5px 0;
+  }
+  .card-dese .designation{
+    text-align: center;
+    font-size: 2.5rem;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .card-dese a{
+    text-decoration: none;
+    background-color: #7dcbcb;
+    color: #fb3484;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 15px;
+  }
+.card-dese a:hover{
+  background-color: rgb(54, 45, 45);
+
+}
+.card-dese a:active{
+ outline: solid 5px green;
+}
